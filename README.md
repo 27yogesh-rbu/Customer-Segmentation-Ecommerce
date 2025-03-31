@@ -53,7 +53,7 @@ After clustering, we identified **three customer segments:**
 ![Elbow Method](https://github.com/27yogesh-rbu/Customer-Segmentation-Ecommerce/blob/main/Screenshot%202025-03-31%20141735.png?raw=true)  
 *Figure 1: Optimal number of clusters determined using the Elbow Method.*  
 
-![Customer Segments](assets/customer_segments.png)  
+![Customer Segments](https://github.com/27yogesh-rbu/Customer-Segmentation-Ecommerce/blob/main/Screenshot%202025-03-31%20141726.png?raw=true)  
 *Figure 2: Customer segmentation based on RFM analysis.*  
 
 ## 🚀 **Business Recommendations**  
