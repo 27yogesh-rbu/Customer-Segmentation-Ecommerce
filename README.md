@@ -21,7 +21,7 @@ This project applies **RFM analysis** and **K-Means clustering** to segment cust
 ![Elbow Method](https://github.com/27yogesh-rbu/Customer-Segmentation-Ecommerce/blob/main/Screenshot%202025-03-31%20141735.png?raw=true)
 
 ### **2️⃣ Customer Segments Based on RFM**
-![Customer Segments](images/customer_segments.png)
+![Customer Segments](https://github.com/27yogesh-rbu/Customer-Segmentation-Ecommerce/blob/main/Screenshot%202025-03-31%20141726.png?raw=true)
 
 ## 🚀 How to Run the Project
 1. Clone the repository:
