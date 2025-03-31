@@ -12,9 +12,35 @@ This project applies **RFM analysis** and **K-Means clustering** to segment cust
   - Data visualization to interpret results
 
 ## 📊 Results & Insights
-- Customers were divided into **three clusters** based on their purchasing behavior.
-- High-value customers identified for **premium offers**.
-- Inactive customers detected for **re-engagement campaigns**.
+After applying RFM (Recency, Frequency, Monetary) analysis and K-Means clustering, the customers were segmented into three groups based on their purchasing behavior.
+
+🔹 Cluster Insights:
+1️⃣ High-Value Customers (Cluster 2 - Yellow)
+
+These customers have high monetary value and low recency, meaning they purchase frequently.
+
+They are the most profitable segment and should be prioritized for loyalty programs and premium offers.
+
+2️⃣ Moderate-Value Customers (Cluster 1 - Teal)
+
+These customers have moderate spending habits and purchase less frequently.
+
+Engaging them with targeted promotions can increase their spending behavior.
+
+3️⃣ Low-Value Customers (Cluster 0 - Purple)
+
+These customers make infrequent purchases and have low monetary value.
+
+Strategies like re-engagement campaigns and discount offers can help retain them.
+
+📌 Key Takeaways:
+The elbow method helped identify the optimal number of clusters (k=3).
+
+High-value customers are the most loyal and contribute significantly to revenue.
+
+Most customers are in the low-value segment, requiring better engagement strategies.
+
+RFM segmentation provides actionable insights to improve customer retention and marketing strategies.
 
 ## 📷 Visualizations
 ### **1️⃣ Elbow Method for Optimal Clusters**
