@@ -18,7 +18,7 @@ This project applies **RFM analysis** and **K-Means clustering** to segment cust
 
 ## 📷 Visualizations
 ### **1️⃣ Elbow Method for Optimal Clusters**
-![Elbow Method](images/elbow_method.png)
+![Elbow Method](https://github.com/27yogesh-rbu/Customer-Segmentation-Ecommerce/blob/main/Screenshot%202025-03-31%20141735.png?raw=true)
 
 ### **2️⃣ Customer Segments Based on RFM**
 ![Customer Segments](images/customer_segments.png)
