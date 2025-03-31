@@ -1,56 +1,92 @@
 # 🛒 Customer Segmentation for an E-commerce Company
 
-This project applies **RFM analysis** and **K-Means clustering** to segment customers based on their purchasing behavior. The goal is to help businesses create targeted marketing strategies using data-driven insights.
+## 📌 **Project Overview**  
+This project applies **RFM (Recency, Frequency, Monetary) analysis** and **K-Means clustering** to segment e-commerce customers based on their purchasing behavior. By analyzing transaction data, businesses can better understand customer loyalty and spending patterns, helping them tailor marketing strategies and improve customer retention.  
 
-## 📌 Project Overview
-- **Dataset**: Online retail transactions (includes InvoiceNo, CustomerID, Quantity, Price, etc.)
-- **Tech Stack**: SQL, Python, pandas, scikit-learn, matplotlib, seaborn
-- **Key Methods**: 
-  - RFM Analysis (Recency, Frequency, Monetary)
-  - K-Means clustering for segmentation
-  - Elbow Method for optimal k
-  - Data visualization to interpret results
+## 🔍 **Objective**  
+- Identify different customer segments based on purchasing behavior.  
+- Provide actionable insights to optimize marketing strategies.  
+- Improve customer engagement and retention using data-driven decisions.  
 
-## 📊 Results & Insights
-After applying RFM (Recency, Frequency, Monetary) analysis and K-Means clustering, the customers were segmented into three groups based on their purchasing behavior.
+## 📂 **Dataset**  
+- **Source:** [Online Retail Dataset](https://archive.ics.uci.edu/ml/datasets/Online+Retail)  
+- **Description:** Contains transactional data for an e-commerce business, including invoice numbers, product descriptions, quantities, customer IDs, and purchase dates.  
 
-🔹 Cluster Insights:
-1️⃣ High-Value Customers (Cluster 2 - Yellow)
+## 🛠 **Technologies Used**  
+- **SQL** – Data extraction and preprocessing  
+- **Python (Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn)** – Data analysis, visualization, and clustering  
+- **Jupyter Notebook** – Development environment  
 
-These customers have high monetary value and low recency, meaning they purchase frequently.
+## 🔬 **Methodology**  
 
-They are the most profitable segment and should be prioritized for loyalty programs and premium offers.
+### **1️⃣ Data Preprocessing**  
+- Removed missing and duplicate values  
+- Filtered out canceled orders  
+- Created **RFM scores** for each customer  
 
-2️⃣ Moderate-Value Customers (Cluster 1 - Teal)
+### **2️⃣ RFM Analysis**  
+- **Recency (R):** How recently a customer made a purchase  
+- **Frequency (F):** How often a customer makes a purchase  
+- **Monetary (M):** Total spending by the customer  
 
-These customers have moderate spending habits and purchase less frequently.
+### **3️⃣ K-Means Clustering**  
+- Used the **Elbow Method** to determine the optimal number of clusters  
+- Segmented customers into **three distinct groups**  
 
-Engaging them with targeted promotions can increase their spending behavior.
+## 📊 **Results & Insights**  
 
-3️⃣ Low-Value Customers (Cluster 0 - Purple)
+After clustering, we identified **three customer segments:**  
 
-These customers make infrequent purchases and have low monetary value.
+1️⃣ **High-Value Customers (Cluster 2 - Yellow)**  
+   - Frequent purchasers with high spending.  
+   - Should be prioritized for **loyalty programs** and **premium offers**.  
 
-Strategies like re-engagement campaigns and discount offers can help retain them.
+2️⃣ **Moderate-Value Customers (Cluster 1 - Teal)**  
+   - Moderate purchasing frequency and spending.  
+   - Can be **engaged with targeted promotions** to boost revenue.  
 
-📌 Key Takeaways:
-The elbow method helped identify the optimal number of clusters (k=3).
+3️⃣ **Low-Value Customers (Cluster 0 - Purple)**  
+   - Infrequent buyers with low spending.  
+   - Can be **re-engaged through discounts and personalized campaigns**.  
 
-High-value customers are the most loyal and contribute significantly to revenue.
+## 📉 **Visualizations**  
+![Elbow Method](assets/elbow_method.png)  
+*Figure 1: Optimal number of clusters determined using the Elbow Method.*  
 
-Most customers are in the low-value segment, requiring better engagement strategies.
+![Customer Segments](assets/customer_segments.png)  
+*Figure 2: Customer segmentation based on RFM analysis.*  
 
-RFM segmentation provides actionable insights to improve customer retention and marketing strategies.
+## 🚀 **Business Recommendations**  
+- **High-value customers** should receive **exclusive discounts, early access, and personalized recommendations**.  
+- **Moderate-value customers** can be **encouraged to spend more through seasonal promotions**.  
+- **Low-value customers** should be **targeted with re-engagement campaigns** to increase frequency.  
 
-## 📷 Visualizations
-### **1️⃣ Elbow Method for Optimal Clusters**
-![Elbow Method](https://github.com/27yogesh-rbu/Customer-Segmentation-Ecommerce/blob/main/Screenshot%202025-03-31%20141735.png?raw=true)
+## 📎 **Project Files**  
+📂 `customer_segmentation.ipynb` – Jupyter Notebook containing all code and analysis  
+📂 `Online Retail.xlsx` – Raw dataset used for analysis  
+📂 `requirements.txt` – List of dependencies required to run this project  
 
-### **2️⃣ Customer Segments Based on RFM**
-![Customer Segments](https://github.com/27yogesh-rbu/Customer-Segmentation-Ecommerce/blob/main/Screenshot%202025-03-31%20141726.png?raw=true)
+## 📦 **Installation & Usage**  
 
-## 🚀 How to Run the Project
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/24yogesh-rbu/Customer-Segmentation-Ecommerce.git
+### **1️⃣ Clone the Repository**  
+```bash
+git clone https://github.com/27yogesh-rbu/Customer-Segmentation-Ecommerce.git
+cd Customer-Segmentation-Ecommerce
+```
+### **2️⃣ Install Dependencies**  
+```bash
+pip install -r requirements.txt
+```
+### **3️⃣ Run the Jupyter Notebook**  
+```bash
+jupyter notebook
+```
+
+## 🌟 **Future Improvements**  
+- Apply **Hierarchical Clustering** for comparison.  
+- Implement **Customer Lifetime Value (CLV) analysis**.  
+- Develop a **dashboard for real-time customer insights**.  
+
+
+
 
