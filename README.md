@@ -50,7 +50,7 @@ After clustering, we identified **three customer segments:**
    - Can be **re-engaged through discounts and personalized campaigns**.  
 
 ## 📉 **Visualizations**  
-![Elbow Method](assets/elbow_method.png)  
+![Elbow Method](https://github.com/27yogesh-rbu/Customer-Segmentation-Ecommerce/blob/main/Screenshot%202025-03-31%20141735.png?raw=true)  
 *Figure 1: Optimal number of clusters determined using the Elbow Method.*  
 
 ![Customer Segments](assets/customer_segments.png)  
